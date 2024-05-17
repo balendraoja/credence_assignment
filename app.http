@@ -1,0 +1,28 @@
+Send Request
+GET http://localhost:3000/movies/
+###
+
+Send Request
+POST http://localhost:3000/movies/
+Content-Type: application/json
+
+{
+    "name": "Avengers: Infinity War",
+    "img": "https://www.google.com/imgres?q=avengers%20infinity%20war&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM%40._V1_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt4154756%2F&docid=9YLE193x3rUzEM&tbnid=oNRyV9FPmSib5M&vet=12ahUKEwie2IPGkpSGAxVGrlYBHUkjDK8QM3oECBMQAA..i&w=1382&h=2048&hcb=2&ved=2ahUKEwie2IPGkpSGAxVGrlYBHUkjDK8QM3oECBMQAA",
+    "summary": "Avengers are fought with thanos army unexpectedly in different planets. So then they couldn't win anywhere. And that results in death of some avengers."
+}
+###
+
+Send Request
+PUT http://localhost:3000/movies/"Avengers: Infinity War"/
+Content-Type: application/json
+
+{
+    "title": "Baahubali 2",
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTEhIVFhUVFhcXGBUWGBUXFxgVFxgXFxYYFxYYHSghGBolHhgXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQG,
+    "summary": "Baahubali wins the war and declared as King by Rajamatha and Baahubali loves Devasena and for her he leaves kingdom despite of some challenges. And he was killed as a revenge his son kills BallalaDeva."
+}
+###
+
+Send Request
+DELETE http://localhost:3000/movies/"The Lord of the Rings: The Fellowship of the Ring",
